@@ -310,6 +310,7 @@ section {
 }
 
 .code-window {
+    max-width: 500px
     background: var(--card-bg);
     border-radius: var(--roundness);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -710,4 +711,5 @@ section.animate-in {
     51%, 100% {
         opacity: 0;
     }
+
 }
