@@ -113,17 +113,6 @@ function updateScrollIndicator() {
     }, 2000);
 }
 
-// Parallax effect for hero background
-function updateParallax() {
-    const scrolled = window.pageYOffset;
-    const hero = document.querySelector('.hero');
-    const rate = scrolled * -0.5;
-
-    if (hero) {
-        hero.style.transform = `translateY(${rate}px)`;
-    }
-}
-
 // Throttle scroll events
 let scrollThrottle;
 window.addEventListener('scroll', () => {
